@@ -2,14 +2,11 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Detail from "./detail";
 import "./home.css"
-import { Router, Routes } from "react-router";
-import { useParams } from "react-router";
+import { Routes } from "react-router";
 import { Link } from "react-router-dom";
-import { Route } from "react-router";
 
 
 function Home () {
-  let { id } = useParams()
   let [title, setTitle] = useState ([])
   console.log(title,"ini title")
 
